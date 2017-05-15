@@ -2,7 +2,7 @@
 
 _A friendly reminder that this is simply a way for us to see how you are individually doing with the technology. Just relax and show us what you know!_
 
-## Objects
+## Objectives
 - Demonstrate understanding of Angular directives and the view model
 - Demonstrate understanding of interacting with an Angular Service
 
