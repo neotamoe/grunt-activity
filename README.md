@@ -20,9 +20,9 @@ This will have a form to fill out and create new heroes. Each hero will have the
 This should show a list of heroes and their information. On page load, all heroes currently in the database should be displayed. When a new hero is added the view should refresh automatically.
 
 ## To Get Started
-[ ] Fork and clone this repo.
-[ ] The server code has been provide, but you will need to `npm install` to get all the dependancies.
-[ ] Start the server and open the site on [http://localhost:3000/](http://localhost:3000/).
+- [ ] Fork and clone this repo.
+- [ ] The server code has been provide, but you will need to `npm install` to get all the dependancies.
+- [ ] Start the server and open the site on [http://localhost:3000/](http://localhost:3000/).
 
 Some of the code has been started for you including all of the server and the Angular `heroService.js` that makes the http calls to the server.
 
