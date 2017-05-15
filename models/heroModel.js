@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 var heroSchema = new Schema({
   alias: String,
   city: String,
-  power_name: String
+  power: String
 });
 
 var Hero = mongoose.model('heros', heroSchema); // heros is the collection name
