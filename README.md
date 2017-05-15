@@ -7,7 +7,7 @@ _A friendly reminder that this is simply a way for us to see how you are individ
 - Demonstrate understanding of interacting with an Angular Service
 
 ## Your Hero Tracker
-After hearing about all Psi's great super powers, The Department of Superhero Knowledge needs an app to help track superhero aliases and powers. You are going to build them this app with Angular. 
+After hearing about all Psi's great super powers, The Department of Superhero Knowledge needs an app to help track superhero aliases and powers. You are going to build them this app with Angular.
 
 ### Hero Entry
 This will have a form to fill out and create new heroes. Each hero will have the following information on their record:
@@ -18,6 +18,10 @@ This will have a form to fill out and create new heroes. Each hero will have the
 
 ### Hero Listing
 This should show a list of heroes and their information. On page load, all heroes currently in the database should be displayed. When a new hero is added the view should refresh automatically.
+
+## App Interface Example
+
+![example mock up](challenge-five-screen.png)
 
 ## To Get Started
 - [ ] Fork and clone this repo.
