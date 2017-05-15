@@ -28,8 +28,8 @@ Some of the code has been started for you including all of the server and the An
 
 The following files **will** need your attention:
 
-[ ] On the client side you will need to complete the `script.js` file. Use the `heroService.js`, which is complete, to make requests to your server.
+- [ ] On the client side you will need to complete the `script.js` file. Use the `heroService.js`, which is complete, to make requests to your server.
 
-[ ] `index.html` will need some ng directives to work with `script.js`. Some directives you will need: `ng-app`, `ng-controller`, `ng-model`, `ng-click`, and `ng-repeat`.
+- [ ] `index.html` will need some ng directives to work with `script.js`. Some directives you will need: `ng-app`, `ng-controller`, `ng-model`, `ng-click`, and `ng-repeat`.
 
 No other files will need your attention.
