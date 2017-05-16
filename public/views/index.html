@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hero Tracker - CC5</title>
-    <script src="./vendors/angular.min.js" charset="utf-8"></script>
-    <script src="./scripts/script.js" charset="utf-8"></script>
-    <script src="./scripts/heroService.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="./styles/style.css">
-  </head>
-  <body>
-    <h2>Hero Tracker</h2>
-    <!-- Hero Entry  -->
+<head>
+  <title>Hero Tracker - CC5</title>
+  <script src="./vendors/angular.min.js" charset="utf-8"></script>
+  <script src="./scripts/script.js" charset="utf-8"></script>
+  <script src="./scripts/heroService.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body ng-app="myApp">
+  <h2>Hero Tracker</h2>
+  <!-- Hero Entry  -->
+  <div ng-controller="HeroController as hc">
     <form id="stylized" class="myform">
       <label for="alias">Alias:</label>
-      <input type="text" name="alias" value="">
+      <input ng-model="hc.alias" name="alias" value="">
       <label for="city">City:</label>
-      <input type="text" name="city" value="">
+      <input ng-model="hc.city" type="text" name="city" value="">
       <label for="power">Power:</label>
-      <input type="text" name="power" value="">
-      <button type="button" name="button">Add Hero</button>
+      <input ng-model="hc.power" type="text" name="power" value="">
+      <button ng-click="hc.addHero()" type="button" name="button">Add Hero</button>
     </form>
-    <div>
+    <div ng-repeat="hero in hc.items">
+      {{hero.alias}}
+      {{hero.city}}
+      {{hero.power}}
       <!-- Hero Listing Div -->
     </div>
-  </body>
+  </div>
+</body>
 </html>

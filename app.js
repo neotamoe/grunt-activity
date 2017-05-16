@@ -15,7 +15,7 @@ app.use('/', indexRouter);
 app.use('/hero', heroRouter);
 
 // server port set and listen
-var serverPort = process.env.port || 3000;
+var serverPort = process.env.port || 3001;
 app.set('port', serverPort);
 
 var server = app.listen(serverPort, function() {

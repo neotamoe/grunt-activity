@@ -7,6 +7,7 @@ myApp.service('HeroService', function($http) {
       url: '/hero',
       data: heroObject
     }).then(function(response) {
+      console.log(response);
       return response.data;
     });
   }
